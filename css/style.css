@@ -149,6 +149,13 @@ button:hover {
   margin-top: 20%;
 }
 
+span {
+  color: #0e0d0d;
+  font-weight: 500;
+}
+
+
+/* responsividade */
 @media screen and (max-width: 1075px) {
   .content {
     flex-direction: column;
