@@ -26,7 +26,6 @@ body {
 }
 
 .glass-container {
-  position: absolute;
   display: block;
   max-width: 72vw;
   margin-top: 10vh;
@@ -134,10 +133,16 @@ button:hover {
   background-color: #2668db;
 }
 
+.image-container {
+  display: flex;
+}
+
 .image-wrapper {
   display: flex;
+  flex-direction: column;
   position: relative;
   justify-content: center;
+  align-items: center;
 }
 
 .image-wrapper img {
@@ -149,11 +154,28 @@ button:hover {
   margin-top: 20%;
 }
 
+.image-wrapper img.image-small {
+  width: 200px;
+  height: 200px;
+}
 span {
   color: #0e0d0d;
   font-weight: 500;
 }
 
+.card {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-top-style: groove;
+  /* border-end-end-radius: 20%; */
+  border-bottom-right-radius: 40px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.card h4 {
+  text-align: center;
+  margin-top: 10px;
+}
 
 /* responsividade */
 @media screen and (max-width: 1075px) {
