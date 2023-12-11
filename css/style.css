@@ -219,6 +219,10 @@ button:hover {
 .image-wrapper p {
   text-align: center;
 }
+
+.image-project {
+  margin-left: 70%;
+}
 span {
   color: #0e0d0d;
   font-weight: 500;
@@ -247,6 +251,8 @@ span {
   .image-wrapper img {
     margin-top: 0px;
   }
+  .image-project {
+    margin: 0px;
 }
 
 @media screen and (max-width: 720px) {
@@ -268,4 +274,6 @@ span {
     max-width: 300px;
     margin-top: 0px;
   }
+  .image-project {
+    margin: 0px;
 }
