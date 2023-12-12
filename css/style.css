@@ -20,6 +20,7 @@ body {
   min-height: 100vh;
 }
 
+/* glass container */
 .container {
   display: flex;
   justify-content: center;
@@ -38,19 +39,13 @@ body {
   -webkit-backdrop-filter: blur(11.6px);
 }
 
-.logo {
-  display: inline-block;
-  font-size: 30px;
-  font-weight: 600;
-  margin-top: -10px;
-  flex: 100;
-}
+
 
 /* navbar e submenu */
 nav {
   position: relative;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -132,10 +127,22 @@ li.nav-link {
 
 .nav-link a {
   width: 100%;
-  /* padding: 10px; */
 }
 
 /* conteúdo */
+.logo {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -10px;
+  flex: 87;
+}
+
+span {
+  color: #0e0d0d;
+  font-weight: 500;
+}
+
 .content {
   display: flex;
   width: 100%;
@@ -165,7 +172,7 @@ li.nav-link {
   line-height: 23px;
 }
 
-.main .contact-text{
+.main .contact-text {
   display: flex;
   justify-content: center;
 }
@@ -192,6 +199,7 @@ button:hover {
 /* imagens */
 .image-container {
   display: flex;
+  justify-content: end;
 }
 
 .image-wrapper {
@@ -221,12 +229,9 @@ button:hover {
 }
 
 .image-project {
-  margin-left: 70%;
+  margin-left: 100%;
 }
-span {
-  color: #0e0d0d;
-  font-weight: 500;
-}
+
 
 /* cards */
 .card {
@@ -253,6 +258,7 @@ span {
   }
   .image-project {
     margin: 0px;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -276,4 +282,5 @@ span {
   }
   .image-project {
     margin: 0px;
+  }
 }
