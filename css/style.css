@@ -172,9 +172,18 @@ span {
   line-height: 23px;
 }
 
-.main .contact-text {
+.content .contact-text {
   display: flex;
   justify-content: center;
+  margin-right: 5px;
+}
+
+footer span{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 13px;
+  color: #403641;
 }
 
 /* buttons */
@@ -253,6 +262,9 @@ button:hover {
   .content {
     flex-direction: column;
   }
+  .content .contact-text{
+    margin: 0;
+  }
   .image-wrapper img {
     margin-top: 0px;
   }
@@ -275,6 +287,9 @@ button:hover {
   }
   .main p {
     font-size: 15px;
+  }
+  .content .contact-text{
+    margin: 0;
   }
   .image-wrapper img {
     max-width: 300px;
